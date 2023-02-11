@@ -108,8 +108,8 @@ let app = {
     // Controls
       let options = {
         delta: 0.75,           // coefficient of movement
-        moveSpeed: 0.5,        // speed of movement
-        rotationSpeed: 0.002,  // coefficient of rotation
+        moveSpeed: 0.15,        // speed of movement
+        rotationSpeed: 0.0015,  // coefficient of rotation
         maxPitch: 55,          // max camera pitch angle
         hitTest: false,         // stop on hitting objects
         hitTestDistance: 5    // distance to test for hit
